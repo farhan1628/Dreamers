@@ -1,0 +1,42 @@
+.maindiv{
+    width: 640px;
+    border: 2px solid grey;
+    border-radius: 9px;
+    box-shadow: 2px -3px 38px 9px rgba(0,25,255,0.75);
+-webkit-box-shadow: 2px -3px 38px 9px rgba(0,25,255,0.75);
+-moz-box-shadow: 2px -3px 38px 9px rgba(0,25,255,0.75);
+
+    
+}
+
+body{
+    background: #020fc2;
+    background-image: radial-gradient(circle, rgba(2, 15, 194, 1) 0%, rgba(2, 8, 117, 1) 50%, rgba(8, 0, 61, 1) 100%);
+    background-size: cover;
+    color: white;
+    width: vw;
+    height: vh;
+}
+
+.secdiv{
+    border: 2px dotted gray;
+    width: 580px;
+    border-radius: 4px;
+}
+
+hr{
+    width: 580px;
+}
+canvas{
+    background-color: white;
+    
+    
+}
+input{
+    cursor: pointer;
+    background-color: blue;
+    padding: 6px;
+    border-radius: 4px;
+    margin: auto;
+    margin-bottom: 5px;
+}

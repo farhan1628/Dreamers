@@ -1,0 +1,29 @@
+body{
+    background-color:salmon
+}
+pre{
+    border:3px solid aquamarine;
+    width: 860px;
+    border-radius:50px;
+    font-size:25px
+}
+button{
+    padding:7px;
+    color:rgb(227, 14, 181);
+    border:3px solid purple;
+    background-color:chartreuse;
+    border-radius:40px;
+    cursor:pointer;
+    float:right;
+    
+
+
+}
+button:hover{
+    background-color:rgb(235, 23, 196);
+    color:aqua;
+    font-size:14px;
+    
+}
+
+

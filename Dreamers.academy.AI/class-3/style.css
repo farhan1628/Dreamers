@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(166, 205, 239);
+    margin: auto;
+    text-align: center;
+}
+
+.box{
+    width: 50%;
+    border-radius: 9px;
+    background-color: white;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+textarea{
+    width: 57%;
+    margin: auto;
+    height: 100px;
+    background-color: aliceblue;
+    border-radius: 7px;
+}
+button{
+    background-color: plum;
+    width: 120px;
+    height: 37px;
+    border-radius: 5px;
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+    border: 2px solid rgb(129, 188, 240);
+}
+
+button:hover{
+    width: 126px;
+    height: 45px;
+    transition: 0.3s;
+    background-color: rgb(244, 205, 237);
+    color: black;
+
+}
+
+.webcam{
+    width: 57%;
+    height: 260px;
+    border-radius: 9px;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.webcampic{
+    width: 57%;
+    height: 260px;
+    border-radius: 9px;
+    border: 2px solid black;
+    margin: auto;
+}

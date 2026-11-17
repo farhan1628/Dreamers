@@ -1,0 +1,29 @@
+body{
+    background-color: silver;
+}
+
+.box{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    width: 44%;
+    border-radius: 10px;
+    height: 545px;
+    /* 480 */
+}
+.box div{
+    
+    
+    margin: auto;
+    border-radius: 5px;
+}
+button{
+
+    font-size: 19px;
+    padding: 3px;
+    cursor: pointer;
+    color:black;
+    border-radius: 5px;
+    
+}

@@ -1,0 +1,41 @@
+body{
+    background-color:rgb(209, 228, 243) ;
+}
+h1{
+    color: rgb(11, 11, 162);
+    font-size: 35px;
+}
+label{
+    color: blue;
+    font-size: 21px;
+}
+button{
+    background-color: rgb(71, 71, 243);
+    border: 3px solid aqua;
+    border-radius: 9px;
+    width: 140px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: rgb(31, 31, 174);
+    border: 3px solid rgb(12, 227, 227);
+    transition: 0.2s;
+    border-radius: 10px;
+    width: 145px;
+    height: 43px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+div{
+    border: 2px solid blue;
+    width: 420px;
+    height: 280px;
+    border-radius: 9px;
+}

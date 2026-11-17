@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0269656935.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <br><br><br>
+    <div class="calculator">
+        <div class="div1">
+            <input type="text" name="" id="display" readonly>
+            
+        </div>
+        
+        <div class="div2">
+            
+            <button class="buttongroup1" onclick="clean()">c</button>
+            <button class="buttongroup1" onclick="cut()"><i class="fa-solid fa-delete-left"></i></button>
+            <button class="buttongroup1" onclick="inputdisplay('%')">%</button>
+            <button class="buttongroup2" onclick="inputdisplay('/')">/</button>
+            <button onclick="inputdisplay('7')">7</button>
+            <button onclick="inputdisplay('8')">8</button>
+            <button onclick="inputdisplay('9')">9</button>
+            <button class="buttongroup2" onclick="inputdisplay('*')">*</button>
+            <button onclick="inputdisplay('4')">4</button>
+            <button onclick="inputdisplay('5')">5</button>
+            <button onclick="inputdisplay('6')">6</button>
+            <button class="buttongroup2" onclick="inputdisplay('-')">-</button>
+            <button onclick="inputdisplay('1')">1</button>
+            <button onclick="inputdisplay('2')">2</button>
+            <button onclick="inputdisplay('3')">3</button>
+            <button class="buttongroup2" onclick="inputdisplay('+')">+</button>
+            <button onclick="pm()">+/-</button>
+            <button onclick="inputdisplay('0')">0</button>
+            <button onclick="inputdisplay('.')">.</button>
+            <button class="buttongroup3" onclick="result()">=</button>
+            <br>
+        </div>
+        
+    </div>
+    
+    
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

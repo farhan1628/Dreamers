@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketch Identification</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1158/1158132.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/2.0.5/p5.min.js" integrity="sha512-jOTg6ikYiHx1LvbSOucnvZi4shXbaovZ91+rfViIiUFLgAJK+k1oQtGEaLvDB8rsZwEfUksTgmhrxdvEDykuzQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://kit.fontawesome.com/0269656935.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    w
+    <h1>Sketch Indentification</h1>
+    <div class="maindiv">
+        <div class="first">
+            <h2><i class="fa-solid fa-paintbrush"></i> Your Sketch: <i class="fa-solid fa-paintbrush"></i></h2>
+            <div id="canvas-container">
+                
+            </div>
+            
+        </div>
+        <div class="second">
+            <h2>What you drew:</h2>
+            <p style="margin-top: 50px;">Object: <span id="obj"></span></p>
+            <p>Accuracy: <span id="acc"></span></p>
+            <button id="clear" onclick="clearCanvas()">Clear Canvas</button>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

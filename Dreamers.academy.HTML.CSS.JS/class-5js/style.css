@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(121, 114, 114);
+    align-items: center;
+    
+  
+}
+.div2{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 70%;
+    border-radius: 0px 0px 8px 8px;
+}
+.calculator{
+    margin:auto;
+    border: 3px solid white;
+    border-radius: 8px;
+    width:320px;
+    align-items: center;
+    height:450px;
+    
+}
+button{
+    height:50px;
+    width:60px;
+    border-radius: 5px;
+    font-size: 27px;
+    cursor: pointer;
+    margin: auto;
+    border: none;
+    background-color: rgb(116, 113, 113);
+}
+button:hover{
+    background: rgb(151, 150, 150);
+}
+.div1 input{
+    width: 99%;
+    height: 130px;
+    border-radius: 8px 8px 0px 0px;
+    border: none;
+    margin-bottom: 1%;
+    color: white;
+    font-size: 60px;
+    background-color: rgb(0, 0, 0);
+    text-align: right;
+    
+
+}
+.buttongroup1{
+    background-color: rgb(207, 247, 7);
+}
+.buttongroup1:hover{
+    background-color:rgb(255, 221, 0) ;
+}
+.buttongroup2:hover{
+    background-color: rgb(255, 220, 42);
+}
+.buttongroup2{
+    background-color: orange;
+}
+.buttongroup3{
+    background:linear-gradient();
+    background: linear-gradient(90deg,rgb(239, 112, 0) 0%, rgb(252, 130, 0) 40%, rgb(255, 119, 0) 100%);
+
+}
+.buttongroup3:hover{
+    background-color:orangered ;
+}

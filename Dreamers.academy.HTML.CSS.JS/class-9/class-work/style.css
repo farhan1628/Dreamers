@@ -1,0 +1,62 @@
+body{
+    font-family: calibri;
+    margin:30px 50px;
+}
+.head{
+    text-align:center;
+    color: rgb(15, 15, 156);
+    font-size: 50px;
+}
+.gg{
+    display: flex;
+    
+    gap:20px;
+    
+}
+.box{
+    width:230px;
+    padding:6px;
+}
+
+
+.second{
+    display:flex;
+}
+
+.second select{
+    width:520px;
+    padding:6px;
+    
+}
+.second {
+    gap:30px;
+    
+}
+.childs_info div{
+    display:flex;
+    gap:10px;
+    
+
+}
+.childs_info input{
+    width:320px;
+    padding:6px;
+}
+.last{
+    margin-left:120px;
+    margin-right:120px;
+    padding-top:20px;
+    padding-left:20px;
+    background-color: #ffe5b4;
+    height:35px;
+}
+.button{
+    background-color:blue;
+    
+    color:white;
+    padding:5px;
+    border-radius:10px;
+    border-color:blue;
+}
+
+

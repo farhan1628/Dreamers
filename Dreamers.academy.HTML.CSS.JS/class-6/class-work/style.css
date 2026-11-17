@@ -1,0 +1,32 @@
+body{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/840/735/693/geometry-polygon-purple-violet-wallpaper-preview.jpg);
+    color:aliceblue;
+    
+
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.bd input{
+    width: 200px;
+    border-radius:7px;
+    padding:4px;
+
+
+
+}
+.jet{
+    width:150px;
+    border-radius:6px;
+}
+.but{
+    width:100px;
+}
+.logo{
+    width:400px
+}
+
+
+
+
+

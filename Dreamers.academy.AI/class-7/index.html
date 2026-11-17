@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <br>
+
+
+    
+    <div id="maindiv">
+        
+        <h1>Voice Draw App</h1>
+        <h3> Say: <b style="color: rgb(0, 247, 255);">"Draw a triangle"</b> or <b style="color: greenyellow;">"Draw a trapezium"</b> or <b style="color: rgb(255, 251, 0);">"Draw a rectangle"</b>.</h3>
+        <br>
+        <div style="display: grid;">
+            <div class="listening" id="label-name">Waiting.....</div>
+            <br>
+            <button onclick="start()">Start</button>
+            <br>
+            <canvas id="drawingCanvas"></canvas>
+        </div>
+        <br>
+        
+    </div>
+    <br>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>

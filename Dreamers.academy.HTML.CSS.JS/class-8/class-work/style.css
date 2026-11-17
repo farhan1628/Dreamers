@@ -1,0 +1,53 @@
+body{
+    background-color:#F8F9FC;
+    
+}
+.cc{
+    margin: 50px 10px;
+}
+.header{
+    text-align:center;
+}
+.header h3{
+    color:orange;
+    font-size: 25px;
+}
+.header h1{
+    font-size:54px;
+}
+.courses{
+    display:flex;
+    align-items: center;
+}
+.banner img{
+    width:577px;
+
+}
+.course_details{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:30px 20px;
+    
+}
+.course_details div{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width:200px;
+    height:200px;
+    border-radius:10px;
+    padding:30px;
+
+
+}
+.course details a{
+    color:orange;
+
+}
+.course_details p{
+    color:rgb(98, 97, 97);
+    font-size:18px;
+}
+.course_details a{
+    color:orange;
+    text-decoration: none;
+}
+

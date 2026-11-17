@@ -1,0 +1,42 @@
+body{
+    background: url(https://img.freepik.com/free-vector/colorful-equalizer-wave-background_52683-33072.jpg?semt=ais_hybrid&w=740&q=80);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+img{
+    width: 110px;
+    margin: 1%;
+}
+button{
+    width: 115px;
+    height: 40px;
+    font-size: 22px;
+    border-radius: 5px;
+    background: #090979;
+    background: linear-gradient(48deg, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 35%, rgba(252, 0, 218, 1) 100%);
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    box-shadow: 3px -1px 18px 6px rgba(0, 47, 255, 0.75);
+-webkit-box-shadow: 3px -1px 18px 6px rgba(0, 47, 255, 0.75);
+-moz-box-shadow: 3px -1px 18px 6px rgba(0, 47, 255, 0.75);
+
+}
+button:hover{
+    box-shadow: 3px -1px 18px 6px rgba(159,0,255,0.75);
+-webkit-box-shadow: 3px -1px 18px 6px rgba(159,0,255,0.75);
+-moz-box-shadow: 3px -1px 18px 6px rgba(159,0,255,0.75);
+transition: 0.6s;
+
+width: 120px;
+height: 45px;
+}
+textarea{
+    width: 800px;
+    height: 180px;
+    font-size: 20px;
+    border-radius: 9px;
+    font-family: cursive;
+
+}

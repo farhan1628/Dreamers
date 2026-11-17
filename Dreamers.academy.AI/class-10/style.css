@@ -1,0 +1,85 @@
+body{
+    background-color: #351562;
+    color: white;
+}
+.maindiv{
+    background-color: #54209c;
+    height: 470px;
+    border-radius: 10px;
+    margin-left:140px;
+    margin-right: 140px;
+    border: 2px solid blueviolet;
+
+    box-shadow: 0px 2px 42px 9px rgba(128,0,128,0.75);
+    -webkit-box-shadow: 0px 2px 42px 9px rgba(128,0,128,0.75);
+    -moz-box-shadow: 0px 2px 42px 9px rgba(128,0,128,0.75);
+}
+
+#chat-box{
+    font-size: 18px;
+    background-color: #351562;
+    border: 2px solid blueviolet;
+    border-radius: 6px;
+    margin-right: 330px;
+    margin-left: 45px;
+    padding: 15px;
+}
+.last-div{
+    background-color: #351562;
+    border: 3px solid purple;
+    border-radius: 7px;
+    text-align: center;
+    width: 30%;
+    margin-right: 340px;
+    margin-left:340px ;
+    margin-top: 305px;
+    padding-top: 6px;
+    padding-bottom: 4px;
+    position:fixed;
+    
+}
+
+button{
+    cursor: pointer;
+    background-color:#351562;
+    border: none;
+    color: white;
+}
+button:hover{
+    color: red;
+    font-size: 16px;
+}
+
+.message {
+  max-width: 85%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 1.5;
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+.user-message {
+    font-size: 18px;
+    background-color: #351562;
+    border: 2px solid blueviolet;
+    border-radius: 6px;
+    margin-left: 330px;
+    margin-right: 45px;
+    padding: 15px;
+    margin-top: 15px;
+  
+}
+
+.bot-message {
+  font-size: 18px;
+    background-color: #351562;
+    border: 2px solid blueviolet;
+    border-radius: 6px;
+    margin-right: 330px;
+    margin-left: 45px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+

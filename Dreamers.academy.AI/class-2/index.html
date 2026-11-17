@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image recognition</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js" integrity="sha512-dQIiHSl2hr3NWKKLycPndtpbh5iaHLo6MwrXm7F0FM5e+kL2U16oE9uIwPHUl6fQBeCthiEuV/rzP3MiAB8Vfw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ml5@0.4.3/dist/ml5.min.js"></script>
+
+</head>
+<body>
+    <br><br>
+    <div class="box">
+        <br>
+        <h1>Image Recognition</h1>
+        <h3>Capture an image and press the identify button to lable the image.</h3>
+        <div style="width: 330px;height: 260px;border: 2px solid silver; border-radius: 7px;align-items: center; text-align: center;">
+            <div id="image">
+                
+            </div>
+        </div>
+        
+        <br>
+        <button onclick="capture()" style="background-color: greenyellow;">capture image</button>
+        <button style="background-color: aqua;" onclick="identify()">Identify Image.</button>
+        <br>
+        <h3>Object: <span id="object"></span></h3>
+        <h3>Accuracy: <span id="accuracy"></span></h3>
+        <br><br>
+    </div>
+    
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+

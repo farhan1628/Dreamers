@@ -1,0 +1,19 @@
+/* .grid{
+
+
+    display:grid;
+    display:flex;
+} */
+
+/* .grid{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+} */
+
+.gg{
+    display:flex;
+    gap:100px;
+
+
+
+}

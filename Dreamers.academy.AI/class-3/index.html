@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice command camera app</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"
+        integrity="sha512-dQIiHSl2hr3NWKKLycPndtpbh5iaHLo6MwrXm7F0FM5e+kL2U16oE9uIwPHUl6fQBeCthiEuV/rzP3MiAB8Vfw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+</head>
+<body>
+    <br><br>
+    <div class="box">
+        <br>
+        <h1>Voice command Camera App</h1>
+        <img style="border-radius: 140%;" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2h1OXhkeTVzamIweGc0Ymk5eGlraWVyMzlkZnJkNDByd3E2dHJzMyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/A1oBMukTqFfkoY1HiH/200.webp" alt="gif">
+        <hr>
+        
+        <h3>Say:"Take a photo"</h3>
+        <h4>Your voice output</h4>
+        <textarea name="" id="textbox" ></textarea>
+        <br><br>
+        <button onclick="start()">Start</button>
+        <h4>Press the start button</h4>
+        <b>Your Webcam:</b>
+        <br><br>
+        <div class="webcam" id="webcam"></div>
+        <br>
+        <b>Your Selfie</b>
+        <br><br>
+        <div class="webcampic" id="webcampic"></div>
+        <br><br>
+        <caption>2026|voice command selfie|All rights reserved</caption>
+        <br><br>
+    </div>
+    <br><br>
+    <script src="script.js"></script>
+</body>
+</html>

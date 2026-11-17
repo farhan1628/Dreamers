@@ -1,0 +1,25 @@
+/* #dom{
+    color:red;
+} */
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-around;
+
+}
+img{
+    width: 100px;
+    
+}
+button{
+    width:100px;
+    background-color: rgb(98, 254, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    height: 30px;
+    
+}

@@ -1,0 +1,39 @@
+body{
+   background: #bf00ff;
+background: linear-gradient(25deg, rgba(191, 0, 255, 1) 9%, rgba(0, 255, 25, 1) 32%, rgba(255, 200, 0, 1) 60%, rgba(255, 0, 234, 1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    text-align: center;
+
+}
+
+.main{
+    color: white;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    
+    border-radius: 10px;
+    background-color: rgb(54, 53, 53);
+    width: 500px;
+    height: 360px;
+    border: 2px solid black;
+}
+h1{
+    font-size: 41px;
+}
+.second{
+    margin:auto;
+    color: white;
+    background-color: black;
+    width: 340px;
+    text-align: center;
+    border-radius: 9px;
+    border: 2px solid grey;
+    
+    
+    
+}

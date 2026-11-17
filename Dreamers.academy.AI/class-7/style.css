@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    
+    
+}
+
+#maindiv{
+    background-color: rgb(99, 92, 101);
+    border-radius: 10px;
+    width: 680px;
+    margin: auto;
+    border: 2px solid aqua;
+    text-align: center;
+    justify-content: center;
+    
+
+}
+.listening{
+    border: 2px solid white;
+    border-radius: 6px;
+    width: 220px;
+    height: 40px;
+    font-size: 23px;
+    text-align: center;
+    margin: auto;
+}
+
+button{
+    background-color: blue;
+    width: 180px;
+    height: 37px;
+    border: 2px solid aqua;
+    border-radius: 8px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    margin: auto;
+    
+}
+
+canvas{
+    width: 450px;
+    height: 340px;
+    background-color: white;
+    margin: auto;
+    border-radius: 9px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid aqua;
+}
+
+button:hover{
+    background-color: rgb(119, 119, 248);
+    transition: 0.2s;
+    border: 2px solid blueviolet;
+}
